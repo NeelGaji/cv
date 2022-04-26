@@ -1,0 +1,143 @@
+body {
+    margin:0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #40514E;
+}
+hr{
+    border: dotted #d2e7e7 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+h1 {
+    margin-top: 230px;
+    margin-bottom: -35px;
+    font-family: 'Square Peg',cursive;
+    font-size:80px;
+    color:#2e9350;
+    line-height: 2;
+}
+h2{
+    color:#11999E;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8cm; 
+    font-weight: normal;
+    padding-bottom: 15px;
+}
+h4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color:#2e9350;     
+    font-weight: bold;
+}
+h3{
+    color: #11999E;
+    font-family: 'Roboto', sans-serif;
+}
+.middle-container{
+    margin: 70px 0;
+}
+.intro{
+    width:40%;
+    position: relative;
+    margin: auto;
+}
+.dev{
+    text-decoration: underline;
+}
+p{
+    line-height: 2;
+
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+.tech-img{
+    width : 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.corp-img{
+    width : 25%;
+    float: right;
+    margin-left:30px;
+    padding-top: 50px;
+
+}
+.top-container { 
+    background-color:#B6FFCE;
+    position: relative;
+    padding-top: 1px;
+
+}
+.top-cloud {
+    position: absolute;
+    right: 250px;
+    top: 100px;
+}
+.bottom-cloud {
+    position: absolute;
+    left: 250px;
+    bottom: 400px;
+}
+a{
+    color: #11999E; 
+}
+a:hover{
+    color: #d2e7e7;
+}
+
+.footer-link1{
+    padding-right: 40px;
+}
+.footer-link2{
+    padding-right: 20px;
+}
+.footer-link3{
+    padding-left: 20px;
+}
+.contact-message{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+
+.bottom-container{
+    background-color: #48898b;
+    padding: 20px 0 20px;
+}
+
+.copyright{
+    color: #eaf6f6;
+    font-size: 0.75rem;
+    padding: 20PX 0;
+}
